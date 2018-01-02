@@ -1,0 +1,171 @@
+git remote       : sonuç origin
+
+git remote -v    : origin adi için depoladigi url i görebilirsin...
+
+git remote add [kisa_ad] [url] 
+
+git remote add tsubasa git://github.com/paulboone/ticgit.git 
+
+git remote show origin : origindeki branchleri gösterir..
+
+git --version
+
+git --help
+
+git config
+
+git config --global user.name "Global user"
+
+git config user.name
+
+git config --list
+
+git config --local --list
+
+git config core.editor "'C:\Program Files\windowsnt\accessories\wordpad.exe'"
+
+git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+
+git config --global credential.helper 'cache --timeout=3600'    1 saatlik cache ye aliyor..sifre mesela
+
+git config --list --show-origin   ayarlar ve bulunduklari dizinler...
+
+C:\Users\bny\.gitconfig 
+
+C:\\ProgramData/Git/config    dizinlerinde konfigürasyon ayarlari bulunmaktadir....
+
+git log --patch
+
+git add --interactive
+
+git status -s 
+
+git log --since 01.01.2015 --until 12.31.2015 
+
+git log --before 01.01.2016 --after 12.31.2014
+
+git log --oneline --name-only
+
+git log --oneline
+
+git log --pretty=format:"%h ( %ad %an ) %s %d" --graph --date=short
+
+git reflog
+
+git reflog master
+
+git reset --hard HEAD@{3}
+
+git branch -v
+
+git branch --list
+
+git branch --list t*
+
+git branch --list *ter
+
+git reset --hard 87ba8bc
+
+gitk
+
+git merge -abort
+
+git rebase master
+
+git merge --abort
+
+git rebase –-abort
+
+git cherry-pick –-abort
+
+git status -sb
+
+git merge guess
+
+git rebase --onto newbase branch2 [ branch1]
+
+git stash
+
+git log --oneline
+
+git branch -r
+
+git branch -a
+
+git branch -vv
+
+git remote show origin
+
+git push --delete origin testing  ---> origindeki testing branhini siler...
+
+git push origin testing:testing2
+
+git push -f origin master
+
+git push origin +master
+
+git pull --rebase
+
+git worktree list
+
+git submodule status
+
+git diff
+
+git add [file]
+
+git diff --staged
+
+git reset [file]
+
+git commit -m "mesaj"
+
+git config --global user.name "[name]"
+
+git branch [branch_name]
+
+git branch -d [branch_name]
+
+git reset [file]
+
+git rm[file]
+
+git rm --cached [file]
+
+git log
+
+git log --follow [file]
+
+git diff [first_branch]...[second_branch]
+
+git show [commit]
+
+git ls-files --other --ignored --exclude-standard   :  lists all ignored files in this project
+
+git reset [commit]
+
+git reset --hard [commit]
+
+git stash
+
+git stash pop
+
+git stash list
+
+git stash drop
+
+git merge --abort
+
+git reset --merge
+
+git reset --hard
+
+git merge --abort is equivalent to git reset --merge when MERGE_HEAD is present
+
+git  reset --merge
+
+
+
+
+
+

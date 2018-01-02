@@ -1,0 +1,7 @@
+Bir problem oldugunda yapilandirma ayarlarinin oldugu dosyaya git oradaki ayarlarin düzgün syntax ile yapildigina dikkat et...
+
+dizinler ;
+
+C:\Users\bny\.gitconfig 
+
+C:\\ProgramData/Git/config    dizinlerinde konfigürasyon ayarlari bulunmaktadir....

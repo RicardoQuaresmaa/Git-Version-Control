@@ -1,0 +1,13 @@
+senaryolar....
+
+1)   yapilan commiti geri alma
+
+2)   yapilan mergü geri alma
+
+3)   branchin filanca tarihteki haline geri dönme
+
+4)   conflicts
+
+5)   ayni branhi farkli zamanlara ve merge lere göre karsilastirma...
+
+6)   farkli branchler arasindaki farklari bulma

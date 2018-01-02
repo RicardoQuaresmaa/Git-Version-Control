@@ -1,0 +1,11 @@
+add lenmemis degisikligi geri alma ;tortoise git - clean up - remove all untracked files
+
+add lenmis degisikligi geri alma (commitlenmemis degisikligi geri alma) ; tortoise git - revert - OK
+
+commitlenmis degisikligi geri alma ; tortoise git - show log - üstteki alandaki commite sagtik - revert change by this commit
+
+yapilan merge 'in geri alinmasi ; tortoise git - show reflog - merge commit inin üzerinde gel - revert change by this commit.....ardindan commit ve push....
+
+localde olusturulan commit yapilmamis branchi remote a yollamaka : Tortoise git - push - checkbox[push all branches] - OK ...
+
+tortoise git ile branch silmek ; bos sag tus - switch - checkout - branch hizasinda en sagdaki 3 noktali kutucuga tikla..silme dahil bir çok islem yapabilirsin....
